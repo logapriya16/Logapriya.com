@@ -1,2 +1,2 @@
 # logapriya.com
- Portfolio Website of Logapriya
+My Portfolio Website 
