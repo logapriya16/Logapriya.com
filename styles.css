@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+:root{
+    --primary-color:#f87171;
+    --grey-color:#64748b;   
+    --offwhite-color:#e2e8f0;
+}
+body{
+    font-family: 'Lora', serif;
+    margin:0px;
+}
+/**container**/
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+.Container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.blog-container .container-center{
+    color:var(--grey-color);
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+}
+.Link-Primary{
+    
+    background-color: var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+}
+.Link-Secondary{
+    color: var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+    
+}
+.hr{
+    margin :2rem 0rem;
+}
+/**lists**/
+.list-non-bullet
+{
+    list-style: none;
+}
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;   
+}
+/**navigation**/
+.Navigation {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.Navigation .link {
+    color: white;
+}
+.Navigation  .nav-pills{
+    text-align:right;
+}
+.Navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.Navigation .link-active{
+    font-weight: bold;
+}
+/** Header**/
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    margin :auto;
+    display: block;
+}
+.hero-heading{
+    font-size:2rem;
+    text-align: center;
+    padding-top: 1rem;
+    color:var(--grey-color);
+}
+.heading-inverted{
+    color : var(--primary-color);
+}
+/**section**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.section.ow{
+    background-color: var(--offwhite-color);
+}
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-right-radius: 1.5rem;
+    color:white;
+    text-align: center;
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-size:1.2rem;
+}
